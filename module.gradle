@@ -1,0 +1,9 @@
+ext {
+    moduleLibraryName = "arkCheats"
+    magiskModuleId = "arkCheats"
+    moduleName = "arkCheats"
+    moduleAuthor = "虚空遁地猪qwq"
+    moduleDescription = "Zygisk ImGui Mod Menu"
+    moduleVersion = "v1.0"
+    moduleVersionCode = 1
+}

@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "C:\\Users\\49858\\Desktop\\arknights\\Zygisk-ImGui-Menu-main\\module\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\49858\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\49858\\Desktop\\arknights\\Zygisk-ImGui-Menu-main\\module\\.cxx\\Debug\\6a503z5g\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\49858\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\49858\\Desktop\\arknights\\Zygisk-ImGui-Menu-main\\module\\.cxx\\Debug\\6a503z5g\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "zyCheats::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "zyCheats",
+      "output": "C:\\Users\\49858\\Desktop\\arknights\\Zygisk-ImGui-Menu-main\\module\\build\\intermediates\\cxx\\Debug\\6a503z5g\\obj\\x86\\libzyCheats.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\49858\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\49858\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

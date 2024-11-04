@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arkCheats",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arkCheats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arkCheats-RelWithDebInfo-741ed1837588caac074d.json",
+					"name" : "arkCheats",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/49858/Desktop/arknights/Zygisk-ImGui-Menu-main/module/.cxx/RelWithDebInfo/1a31661q/armeabi-v7a",
+		"source" : "C:/Users/49858/Desktop/arknights/Zygisk-ImGui-Menu-main/module/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

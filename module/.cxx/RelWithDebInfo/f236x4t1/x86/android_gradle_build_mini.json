@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\49858\\Desktop\\arknights\\Zygisk-ImGui-Menu-main\\module\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\49858\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\49858\\Desktop\\arknights\\Zygisk-ImGui-Menu-main\\module\\.cxx\\RelWithDebInfo\\f236x4t1\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\49858\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\49858\\Desktop\\arknights\\Zygisk-ImGui-Menu-main\\module\\.cxx\\RelWithDebInfo\\f236x4t1\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "zyCheats::@6890427a1f51a3e7e1df": {
+      "artifactName": "zyCheats",
+      "abi": "x86",
+      "output": "C:\\Users\\49858\\Desktop\\arknights\\Zygisk-ImGui-Menu-main\\module\\build\\intermediates\\cxx\\RelWithDebInfo\\f236x4t1\\obj\\x86\\libzyCheats.so",
+      "runtimeFiles": []
+    }
+  }
+}

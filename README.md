@@ -23,5 +23,5 @@ Hook一个在游戏中经常调用的函数，例如例子中的readyToSpawn
 
 在其中调用readSharedDataFromFile(path.c_str(),&readdata);就可以了
 
-
+没有去测试真机，真机也不用这么复杂，直接使用上面的模板就行了
 

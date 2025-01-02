@@ -1,21 +1,27 @@
-# Zygisk-Il2CppDumper
-Il2CppDumper with Zygisk, dump il2cpp data at runtime, can bypass protection, encryption and obfuscation.
+# zygisk-unity-mod-menu
+实现在模拟器上hook注入显示菜单
 
-中文说明请戳[这里](README.zh-CN.md)
+项目是基于Perfare/Zygisk-Il2CppDumper https://github.com/Perfare/Zygisk-Il2CppDumper
 
-## How to use
-1. Install [Magisk](https://github.com/topjohnwu/Magisk) v24 or later and enable Zygisk
-2. Build module
-   - GitHub Actions
-      1. Fork this repo
-      2. Go to the **Actions** tab in your forked repo
-      3. In the left sidebar, click the **Build** workflow.
-      4. Above the list of workflow runs, select **Run workflow**
-      5. Input the game package name and click **Run workflow**
-      6. Wait for the action to complete and download the artifact
-   - Android Studio
-      1. Download the source code
-      2. Edit `game.h`, modify `GamePackageName` to the game package name
-      3. Use Android Studio to run the gradle task `:module:assembleRelease` to compile, the zip package will be generated in the `out` folder
-3. Install module in Magisk
-4. Start the game, `dump.cs` will be generated in the `/data/data/GamePackageName/files/` directory
+使用的模板是 zygisk-mod-menu：https://github.com/fedes1to/Zygisk-ImGui-Menu
+
+通过Perfare佬的思路，在模拟器上使用x86_64的so加载arm64的so，达到注入的效果
+
+但是此时加载的arm64的so无法hook input，导致无法触摸按钮
+
+采取的解决方法是在x86_64的so中去hook eglSwapBuffers和input
+
+通过读写"/data/data/" + std::string(GamePackageName) + "/files/sharedata.bin"，实现菜单的数据传递
+
+
+# 如何使用
+该项目的案例是FGO
+
+首先修改GamePackageName 为你的包名
+
+Hook一个在游戏中经常调用的函数，例如例子中的Updata
+
+在其中调用readSharedDataFromFile(path.c_str(),&readdata);就可以了
+
+没有去测试真机，真机也不用这么复杂，直接使用上面的模板就行了
+

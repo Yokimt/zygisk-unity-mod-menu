@@ -1,0 +1,1 @@
+C:\Users\Mono\StudioProjects\Zygisk-Il2CppDumper\module\build\intermediates\cxx\Debug\2zb91f4a\obj\x86_64

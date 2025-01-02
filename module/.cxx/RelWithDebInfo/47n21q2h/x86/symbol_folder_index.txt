@@ -1,0 +1,1 @@
+C:\Users\Mono\StudioProjects\Zygisk-Il2CppDumper\module\build\intermediates\cxx\RelWithDebInfo\47n21q2h\obj\x86

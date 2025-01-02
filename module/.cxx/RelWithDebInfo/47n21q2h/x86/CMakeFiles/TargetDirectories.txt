@@ -1,0 +1,3 @@
+C:/Users/Mono/StudioProjects/Zygisk-Il2CppDumper/module/.cxx/RelWithDebInfo/47n21q2h/x86/CMakeFiles/unityhook.dir
+C:/Users/Mono/StudioProjects/Zygisk-Il2CppDumper/module/.cxx/RelWithDebInfo/47n21q2h/x86/CMakeFiles/edit_cache.dir
+C:/Users/Mono/StudioProjects/Zygisk-Il2CppDumper/module/.cxx/RelWithDebInfo/47n21q2h/x86/CMakeFiles/rebuild_cache.dir

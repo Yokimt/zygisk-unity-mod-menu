@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Mono\\StudioProjects\\Zygisk-Il2CppDumper\\module\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Mono\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Mono\\StudioProjects\\Zygisk-Il2CppDumper\\module\\.cxx\\Debug\\2zb91f4a\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Mono\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Mono\\StudioProjects\\Zygisk-Il2CppDumper\\module\\.cxx\\Debug\\2zb91f4a\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "unityhook::@6890427a1f51a3e7e1df": {
+      "artifactName": "unityhook",
+      "abi": "x86",
+      "output": "C:\\Users\\Mono\\StudioProjects\\Zygisk-Il2CppDumper\\module\\build\\intermediates\\cxx\\Debug\\2zb91f4a\\obj\\x86\\libunityhook.so",
+      "runtimeFiles": [
+        "C:\\Users\\Mono\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\23\\libGLESv2.so",
+        "C:\\Users\\Mono\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\23\\libandroid.so",
+        "C:\\Users\\Mono\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\23\\libEGL.so"
+      ]
+    }
+  }
+}
